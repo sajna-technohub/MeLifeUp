@@ -35,7 +35,7 @@ public class SuccessFrag3  extends DialogFragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-ImageView suc3;
+ImageView suc3;//jhjskf
 TextView spo;
 View v;
     // TODO: Rename and change types of parameters
