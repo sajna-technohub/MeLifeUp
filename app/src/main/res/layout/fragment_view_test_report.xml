@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewreportlayout"
+    tools:context=".activities.ui.fragments.ViewTestReportFragment">
+    <LinearLayout
+        android:orientation="vertical" android:gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/newinmg"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="0.1">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_marginTop="150dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="150dp"
+                android:id="@+id/skillimage"
+                android:src="@drawable/testing"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/skillimage"
+                android:typeface="serif"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/skill_title"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="30dp"
+                android:text="@string/Title_skilltest"
+                android:textColor="@color/whiteLogocolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="0.6">
+
+            <com.skydoves.elasticviews.ElasticButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:background="@drawable/grid_cont"
+                android:text="@string/Title_viewreport"
+                android:id="@+id/btn_viewreport"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/darkblue"
+                android:textSize="17sp"
+                app:button_cornerRadius="4dp"
+                app:button_duration="250"
+                app:button_scale="0.87" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
