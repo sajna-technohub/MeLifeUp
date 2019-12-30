@@ -33,12 +33,18 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:gravity="center"
-                    android:text="Connect with us"
-                    android:textColor="@color/google_red"
-                    android:typeface="serif" />
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_yellobg"
+                    android:clickable="true"
+                    android:fontFamily="@font/goodtimesrg"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="Connect with Us"
+                    android:textColor="#FFA500"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -59,6 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:text="Contact us"
+                    android:layout_marginLeft="10dp"
                     android:textColor="@color/darkblue"
                     android:textSize="15sp"
                     android:typeface="serif" />
@@ -82,6 +89,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:text="Like us on facebook"
+                    android:layout_marginLeft="10dp"
                     android:textColor="@color/darkblue"
                     android:textSize="15sp"
                     android:typeface="serif" />
@@ -103,6 +111,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:text="Follow us on twitter"
                     android:textColor="@color/darkblue"
@@ -149,6 +158,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:text="Rate Us on playstore"
                     android:textColor="@color/darkblue"
@@ -174,6 +184,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:text="Follow Us on Instagram"
+                    android:layout_marginLeft="10dp"
                     android:textColor="@color/darkblue"
                     android:textSize="15sp"
                     android:typeface="serif" />
@@ -197,6 +208,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:text="Fork Us on Github"
+                    android:layout_marginLeft="10dp"
                     android:textColor="@color/darkblue"
                     android:textSize="15sp"
                     android:typeface="serif" />
@@ -210,19 +222,26 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:text="Contact Us $ Let's Collaborate"
-                    android:textColor="@color/google_red"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_yellobg"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="Contact Lets Collaborate"
+                    android:fontFamily="@font/goodtimesrg"
+                    android:textColor="#FFA500"
                     android:textSize="15sp"
-                    android:typeface="serif" />
+                    android:textStyle="bold" />
 
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:textColor="@color/darkblue"
+                    android:lineSpacingExtra="8dp"
                     android:text="@string/cont_desc" />
                 <Space
                     android:layout_width="match_parent"
