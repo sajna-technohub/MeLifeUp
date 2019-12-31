@@ -19,6 +19,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.mikhaellopez.circularimageview.CircularImageView;
 import com.technohub.melife.R;
 import com.technohub.melife.activities.ui.fragments.AboutUsFragment;
+import com.technohub.melife.activities.ui.fragments.ContactUsFragment;
 import com.technohub.melife.activities.ui.fragments.ProfileFragment;
 import com.technohub.melife.activities.ui.fragments.ReportFragment;
 import com.technohub.melife.activities.ui.fragments.StartSkillTestFragment;
@@ -118,6 +119,8 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 txtcontact.startAnimation(animBounce);
+                Fragment f=new ContactUsFragment();
+                fun(f);
 //                txtcontact.setCardBackgroundColor(Color.CYAN);
 //                txtcontact.setCardBackgroundColor(R.drawable.button_drawable);
             }
