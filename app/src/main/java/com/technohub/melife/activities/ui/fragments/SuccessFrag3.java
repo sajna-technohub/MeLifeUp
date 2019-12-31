@@ -9,7 +9,6 @@ import android.os.Bundle;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +42,6 @@ View v;
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
-
     public SuccessFrag3() {
         // Required empty public constructor
     }
