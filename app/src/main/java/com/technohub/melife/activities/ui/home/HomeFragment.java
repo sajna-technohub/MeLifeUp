@@ -46,7 +46,7 @@ public class HomeFragment extends Fragment {
 //    ImageView ptest,faq,setting,contactus,aboutus,testreport;
     CardView txtptest,txtfaq,txtcontact,txtabout,txtset,txttestreport;
     TextView tviewptest;
-    CircularImageView test,report;
+    CircularImageView test,report,profileimg;
     ImageView profile;
     private OnFragmentInteractionListener mListener;
 
@@ -158,7 +158,7 @@ public class HomeFragment extends Fragment {
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-         Fragment f=new HomeFragment();
+         Fragment f=new StartSkillTestFragment();
          fun(f);
             }
         });
@@ -170,6 +170,13 @@ public class HomeFragment extends Fragment {
             }
         });
         profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Fragment f=new ProfileFragment();
+                fun(f);
+            }
+        });
+        profileimg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Fragment f=new ProfileFragment();
@@ -200,6 +207,7 @@ public class HomeFragment extends Fragment {
         tviewptest=v.findViewById(R.id.tviewptest);
         test=(CircularImageView)v.findViewById(R.id.testicon);
         report=(CircularImageView)v.findViewById(R.id.reporticon);
+        profileimg=(CircularImageView)v.findViewById(R.id.profileimage);
         profile=(ImageView)v.findViewById(R.id.profile);
     }
     void fun(Fragment f)

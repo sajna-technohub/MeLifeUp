@@ -395,7 +395,7 @@ void selectAnswer()
     {
          Qno.setText(flag+1+" ");
         Question.setText(Constants.questions[flag]);
-        Toast.makeText(getContext(), "flag "+flag, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getContext(), "flag "+flag, Toast.LENGTH_SHORT).show();
     }
     if(flag==Constants.questions.length)
     {
